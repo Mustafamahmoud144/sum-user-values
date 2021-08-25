@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Basics</title>
+    </head>
+    <body>
+        <h2>using Loop</h2>
+        <p id="demo"></p>
+        <script>
+            
+            var sum = 0, num = 0;
+            do {
+                
+                num = parseFloat(prompt("Enter Number",""));
+                
+                sum = sum + num;
+            }while(num > 0 && sum < 100);
+                   
+         document.getElementById("demo").innerHTML = "The Sum Of Your Entered Numbers Is :  " + sum;
+        </script>
+                
+    </body>
+</html>
